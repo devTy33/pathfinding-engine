@@ -31,8 +31,8 @@ G g r g g r h m m r
 
 How to Run:
 
-g++ -o dijkstras dijkstras.cpp
-./dijkstras < inputfile.txt
+  g++ -o dijkstras dijkstras.cpp
+  ./dijkstras < inputfile.txt
 
 ### Output
 
