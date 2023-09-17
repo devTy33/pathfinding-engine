@@ -8,31 +8,31 @@ The input file contains the number of different edges, the edges and edge weight
 Example input .txt file:
 
 6 <br />
-f 3
-g 1
-G 2
-h 4
-m 7
-r 5
-10 10
-G r g g m m m r f m
-G g r G G G G m f h
-m r f m m f G r h h
-G m G f h r g m g g
-g g g m h m h f m f
-h r g f f f g h r h
-m G f r m m G r g f
-m r h h h h G m m r
-r r g f G r r m f r
-G g r g g r h m m r
-0 0
-7 6
+f 3 <br />
+g 1 <br />
+G 2 <br />
+h 4 <br />
+m 7 <br />
+r 5 <br />
+10 10 <br />
+G r g g m m m r f m <br />
+G g r G G G G m f h <br />
+m r f m m f G r h h <br />
+G m G f h r g m g g <br />
+g g g m h m h f m f <br />
+h r g f f f g h r h <br />
+m G f r m m G r g f <br />
+m r h h h h G m m r <br />
+r r g f G r r m f r <br />
+G g r g g r h m m r <br />
+0 0 <br />
+7 6 <br />
 
 
 How to Run:
 
-  g++ -o dijkstras dijkstras.cpp
-  ./dijkstras < inputfile.txt
+  g++ -o dijkstras dijkstras.cpp <br />
+  ./dijkstras < inputfile.txt    <br />
 
 ### Output
 
@@ -40,18 +40,19 @@ The output contains the weight/length of the shortest path and the path itself.
 
 The input above gives us the output: 
 
-27
-0 0
-0 1
-0 2
-0 3
-1 3
-1 4
-1 5
-1 6
-2 6
-3 6
-4 6
-5 6
-6 6
-7 6
+27 <br />
+0 0 <br />
+0 1 <br />
+0 2 <br />
+0 3 <br />
+1 3 <br />
+1 4 <br />
+1 5 <br />
+1 6 <br />
+2 6 <br />
+3 6 <br /> 
+4 6 <br />
+5 6 <br />
+6 6 <br />
+7 6 <br />
+ 
