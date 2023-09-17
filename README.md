@@ -7,8 +7,8 @@ The input file contains the number of different edges, the edges and edge weight
 
 Example input .txt file:
 
-6
-f 3
+6__
+f 3__
 g 1
 G 2
 h 4
